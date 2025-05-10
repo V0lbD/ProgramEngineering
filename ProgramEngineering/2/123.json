@@ -1,0 +1,334 @@
+{
+  "history": [
+    {
+      "map_state": {
+        "cities": {
+          "Москва": {
+            "Санкт-Петербург": [
+              10
+            ],
+            "Владимир": [
+              5,
+              3
+            ],
+            "Магнитогорск": [
+              10
+            ]
+          },
+          "Санкт-Петербург": {
+            "Москва": [
+              10
+            ],
+            "Магнитогорск": [
+              25
+            ],
+            "Владимир": [
+              7
+            ]
+          },
+          "Магнитогорск": {
+            "Москва": [
+              10
+            ],
+            "Челябинск": [
+              5,
+              3,
+              2
+            ],
+            "Санкт-Петербург": [
+              25
+            ]
+          },
+          "Челябинск": {
+            "Магнитогорск": [
+              5,
+              3,
+              2
+            ]
+          },
+          "Владимир": {
+            "Москва": [
+              5,
+              3
+            ],
+            "Санкт-Петербург": [
+              7
+            ]
+          },
+          "3": {
+            "1": [
+              1,
+              2,
+              3,
+              3
+            ]
+          },
+          "1": {
+            "3": [
+              1,
+              2,
+              3,
+              3
+            ]
+          }
+        },
+        "_version": "1.2"
+      },
+      "undo_stack": [
+        {
+          "type": "AddCityCommand",
+          "name": "Москва"
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "Санкт-Петербург"
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Москва",
+          "city2": "Санкт-Петербург",
+          "cost": 10
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "Магнитогорск"
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "Челябинск"
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "Владимир"
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Москва",
+          "city2": "Владимир",
+          "cost": 5
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Москва",
+          "city2": "Владимир",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Москва",
+          "city2": "Магнитогорск",
+          "cost": 20
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Москва",
+          "city2": "Челябинск",
+          "cost": 15
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Челябинск",
+          "city2": "Магнитогорск",
+          "cost": 5
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Челябинск",
+          "city2": "Магнитогорск",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Челябинск",
+          "city2": "Магнитогорск",
+          "cost": 2
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Санкт-Петербург",
+          "city2": "Магнитогорск",
+          "cost": 25
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "Санкт-Петербург",
+          "city2": "Владимир",
+          "cost": 7
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "Челябинск",
+          "city2": "Москва",
+          "cost": 15
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "1"
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "2"
+        },
+        {
+          "type": "RenameCityCommand",
+          "old_name": "2",
+          "new_name": "3"
+        },
+        {
+          "type": "RemoveCityCommand",
+          "name": "3",
+          "roads": []
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "3"
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 1
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 2
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "AddRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "RemoveRoadCommand",
+          "city1": "1",
+          "city2": "3",
+          "cost": 3
+        },
+        {
+          "type": "UpdateRoadCommand",
+          "city1": "Москва",
+          "city2": "Магнитогорск",
+          "old_cost": 20,
+          "new_cost": 10
+        }
+      ],
+      "redo_stack": []
+    }
+  ],
+  "current_index": 0,
+  "_metadata": {
+    "version": "1.2",
+    "created": "2025-05-10T14:42:26.886091"
+  }
+}

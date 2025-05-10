@@ -1,0 +1,35 @@
+{
+  "history": [
+    {
+      "map_state": {
+        "cities": {
+          "Москва": {}
+        },
+        "_version": "1.2"
+      },
+      "undo_stack": [
+        {
+          "type": "AddCityCommand",
+          "name": "Москва"
+        }
+      ],
+      "redo_stack": [
+        {
+          "type": "AddRoadCommand",
+          "city1": "Москва",
+          "city2": "Санкт-Петербург",
+          "cost": 10
+        },
+        {
+          "type": "AddCityCommand",
+          "name": "Санкт-Петербург"
+        }
+      ]
+    }
+  ],
+  "current_index": 0,
+  "_metadata": {
+    "version": "1.2",
+    "created": "2025-05-10T10:50:48.680357"
+  }
+}
